@@ -70,7 +70,7 @@ const fetchISSFlyOverTimes = function (coords, callback) {
       }
       const data = JSON.parse(body);
       data.message === "success"
-        ? callback(null, data)
+        ? callback(null, data.response)
         : callback(data.message, null);
     }
   );

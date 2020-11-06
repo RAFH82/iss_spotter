@@ -24,6 +24,6 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes } = require("./iss");
 //       console.log(error);
 //       return;
 //     }
-//     console.log("It worked! Returned Location data:", coords);
+//     console.log("It worked! Returned Flyover Times:", coords);
 //   }
 // );

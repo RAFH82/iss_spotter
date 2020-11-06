@@ -24,7 +24,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
 //   }
 
 //   console.log("It worked! Returned IP:", ip);
-// });  
+// });
 
 // fetchCoordsByIP("70.66.155.47", (error, coords) => {
 //   if (error) {
